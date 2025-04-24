@@ -758,7 +758,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NPN"
+		(symbol "Simulation_SPICE:PNP"
 			(pin_numbers
 				(hide yes)
 			)
@@ -776,7 +776,7 @@
 					)
 				)
 			)
-			(property "Value" "NPN"
+			(property "Value" "PNP"
 				(at -2.54 5.08 0)
 				(effects
 					(font
@@ -785,7 +785,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 63.5 0 0)
+				(at 35.56 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -794,7 +794,7 @@
 				)
 			)
 			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
+				(at 35.56 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -811,7 +811,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NPN"
+			(property "Sim.Device" "PNP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -847,7 +847,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NPN_0_1"
+			(symbol "PNP_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -909,7 +909,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -919,32 +919,8 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "NPN_1_1"
+			(symbol "PNP_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1003,9 +979,75 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 123.19 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3463f433-8429-4d0b-b540-681e7441af1f")
+	)
+	(wire
+		(pts
+			(xy 123.19 127) (xy 123.19 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d119db-4318-49a9-af7c-7b7b0d599490")
+	)
+	(wire
+		(pts
+			(xy 168.91 140.97) (xy 168.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511f03ed-9a31-4c64-a696-7d64cdc984b5")
+	)
+	(wire
+		(pts
+			(xy 123.19 127) (xy 138.43 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57494d1e-8390-40e8-a892-2b0165fd41d8")
+	)
+	(wire
+		(pts
+			(xy 123.19 140.97) (xy 168.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c231849-e090-4ac3-87a0-3ba477f2d015")
+	)
+	(wire
+		(pts
+			(xy 148.59 127) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6102947a-bb31-4964-be64-761ec8a284ea")
+	)
+	(wire
+		(pts
+			(xy 123.19 118.11) (xy 123.19 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75df6e05-1fa8-492a-b7a5-d648407e6140")
+	)
 	(symbol
 		(lib_id "Sensor_Optical:KPS-3227")
-		(at 162.56 91.44 0)
+		(at 143.51 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1014,25 +1056,23 @@
 		(fields_autoplaced yes)
 		(uuid "1cfdd8b0-d6aa-49d8-9dac-02e2b4d7bf55")
 		(property "Reference" "Q1"
-			(at 165.1 89.4206 0)
+			(at 142.7607 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "KPS-3227"
-			(at 165.1 91.9606 0)
+			(at 142.7607 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "OptoDevice:Kingbright_KPS-3227"
-			(at 162.56 87.63 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +1081,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-3227SP1C(Ver.16).pdf"
-			(at 162.56 87.63 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1090,7 @@
 			)
 		)
 		(property "Description" "Ambient light NPN phototransistor, KPS-3227"
-			(at 162.56 91.44 0)
+			(at 143.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,8 +1120,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:PNP")
+		(at 166.37 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c099520-3e56-4e6f-a3d0-5773f8efed96")
+		(property "Reference" "Q2"
+			(at 171.45 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PNP"
+			(at 171.45 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "492906ac-80ac-4703-b22e-40da95618e58")
+		)
+		(pin "2"
+			(uuid "cb3cfcf9-439e-4b8e-aacf-65129e164598")
+		)
+		(pin "3"
+			(uuid "a87d5d90-9963-4426-b1cd-8829f0c8cc2b")
+		)
+		(instances
+			(project ""
+				(path "/67ea8089-b1c4-4ff2-8f17-3c25f880c6b4"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 167.64 115.57 0)
+		(at 160.02 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1090,7 +1230,7 @@
 		(fields_autoplaced yes)
 		(uuid "caca0f5f-adf0-4063-ac55-2a6cd1feeef3")
 		(property "Reference" "D1"
-			(at 166.0525 109.22 0)
+			(at 158.4325 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1238,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.0525 111.76 0)
+			(at 158.4325 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 115.57 0)
+			(at 160.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 115.57 0)
+			(at 160.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1264,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 167.64 115.57 0)
+			(at 160.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1273,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 115.57 0)
+			(at 160.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,108 +1297,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 161.29 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efbf5858-6fcb-4e61-9739-633289c1cd6a")
-		(property "Reference" "Q2"
-			(at 166.37 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 166.37 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 224.79 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 161.29 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 161.29 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 161.29 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 161.29 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2b231e7-a7e7-42db-a5b7-2354c6cb6b68")
-		)
-		(pin "3"
-			(uuid "aa435664-3d93-4c28-957e-2128297d7303")
-		)
-		(pin "2"
-			(uuid "171fc151-9e7f-48ec-a6d8-07841b9c15ad")
-		)
-		(instances
-			(project ""
-				(path "/67ea8089-b1c4-4ff2-8f17-3c25f880c6b4"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 125.73 135.89 0)
+		(at 149.86 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1267,7 +1307,7 @@
 		(fields_autoplaced yes)
 		(uuid "fba21e3c-a7d8-4274-a2a1-b4fd1fe54dd0")
 		(property "Reference" "C1"
-			(at 128.27 134.7469 0)
+			(at 152.4 110.6169 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,7 +1316,7 @@
 			)
 		)
 		(property "Value" "C_Small_US"
-			(at 128.27 137.2869 0)
+			(at 152.4 113.1569 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,7 +1325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 135.89 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 135.89 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +1343,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 125.73 135.89 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
