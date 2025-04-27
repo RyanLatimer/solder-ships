@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Sequential Lighting")
+		(date "2025-04-27")
+		(rev "1.1.1")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -1917,6 +1922,18 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_poly
+		(pts
+			(xy 151.75 135) (xy 168.75 119.25) (xy 169.25 86.75) (xy 151.5 72) (xy 134.25 87.75) (xy 134.5 119.25)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "92357df2-6023-489b-a1c4-b5ff021c4112")
 	)
 	(embedded_fonts no)
 )
