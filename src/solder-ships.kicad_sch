@@ -1781,7 +1781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 118.11 102.87 0)
 			(effects
 				(font
@@ -1858,7 +1858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -1935,7 +1935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 140.97 85.09 0)
 			(effects
 				(font
@@ -2033,7 +2033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 173.99 112.268 90)
 			(effects
 				(font
@@ -2101,7 +2101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 118.11 125.73 0)
 			(effects
 				(font
@@ -2178,7 +2178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 200.66 90.678 90)
 			(effects
 				(font
@@ -2248,7 +2248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 66.04 45.72 90)
 			(effects
 				(font
@@ -2317,7 +2317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 187.96 112.268 90)
 			(effects
 				(font
@@ -2385,7 +2385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 158.75 112.268 90)
 			(effects
 				(font
@@ -2453,7 +2453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 160.02 90.678 90)
 			(effects
 				(font
@@ -2521,7 +2521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -2619,7 +2619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 118.11 146.05 0)
 			(effects
 				(font
@@ -2696,7 +2696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 140.97 41.91 0)
 			(effects
 				(font
@@ -2794,7 +2794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 140.97 20.32 0)
 			(effects
 				(font
@@ -2892,7 +2892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 167.64 155.448 90)
 			(effects
 				(font
@@ -2960,7 +2960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 180.34 90.678 90)
 			(effects
 				(font
@@ -3028,7 +3028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 162.56 66.548 90)
 			(effects
 				(font
@@ -3098,7 +3098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 88.392 73.66 90)
 			(effects
 				(font
@@ -3166,7 +3166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 190.5 155.448 90)
 			(effects
 				(font
@@ -3234,7 +3234,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 140.97 -25.4 0)
 			(effects
 				(font
@@ -3332,7 +3332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 179.07 135.128 90)
 			(effects
 				(font
@@ -3400,7 +3400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 176.53 44.958 90)
 			(effects
 				(font
@@ -3468,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 140.97 -3.81 0)
 			(effects
 				(font
@@ -3566,7 +3566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -3643,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 118.11 57.15 0)
 			(effects
 				(font
@@ -3720,7 +3720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 200.66 112.268 90)
 			(effects
 				(font
@@ -3788,7 +3788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 195.58 66.548 90)
 			(effects
 				(font
@@ -3858,7 +3858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 65.532 73.66 90)
 			(effects
 				(font
